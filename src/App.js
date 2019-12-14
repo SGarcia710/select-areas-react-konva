@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { Stage, Layer, Rect } from "react-konva";
 
 const App = props => {
+  // from https://stackoverflow.com/questions/47395110/selecting-by-drawing-a-box-around-objects-in-konva
   const mainWidth = window.innerWidth;
   const mainHeight = window.innerHeight;
 
